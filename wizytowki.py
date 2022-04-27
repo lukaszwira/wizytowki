@@ -40,3 +40,4 @@ contacts = create_contacts("business", 5)
 
 for contact in contacts:
     print(contact.contact())
+    print(contact.label_length)
